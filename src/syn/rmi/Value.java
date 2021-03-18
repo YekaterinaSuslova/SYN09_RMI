@@ -37,6 +37,6 @@ public class Value implements Serializable {
 
     @Override
     public String toString() {
-        return String.format("\na = %s\nb = %s\nx = %s\ny = %.3f", a, b, x, y);
+        return String.format("\nx = %s\na = %s\nb = %s\ny = %.3f", a, b, x, y);
     }
 }
